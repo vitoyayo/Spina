@@ -78,12 +78,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.10)
     docile (1.1.5)
     erubis (2.7.0)
     execjs (2.7.0)
-    globalid (0.3.7)
-      activesupport (>= 4.1.0)
+    globalid (1.0.1)
+      activesupport (>= 5.0)
     globalize (5.1.0.beta1)
       activemodel (>= 4.2, < 5.1)
       activerecord (>= 4.2, < 5.1)
@@ -101,7 +101,8 @@ GEM
       haml (~> 4.0)
       nokogiri (>= 1.6.0)
       ruby_parser (~> 3.5)
-    i18n (0.8.1)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jquery-fileupload-rails (0.4.7)
       actionpack (>= 3.1)
       railties (>= 3.1)
@@ -133,7 +134,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_magick (4.6.1)
     mini_portile2 (2.1.0)
-    minitest (5.10.1)
+    minitest (5.17.0)
     minitest-reporters (1.1.14)
       ansi
       builder
@@ -205,7 +206,7 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
-    tzinfo (1.2.2)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
